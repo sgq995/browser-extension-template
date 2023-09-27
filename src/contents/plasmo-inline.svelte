@@ -2,26 +2,27 @@
   import type {
     PlasmoCSConfig,
     PlasmoGetInlineAnchor,
-    PlasmoMountShadowHost
-  } from "plasmo"
+    PlasmoMountShadowHost,
+  } from "plasmo";
 
   export const config: PlasmoCSConfig = {
-    matches: ["https://www.plasmo.com/*"]
-  }
+    matches: ["https://www.plasmo.com/*"],
+  };
 
   export const getInlineAnchor: PlasmoGetInlineAnchor = () =>
-    document.querySelector("#supercharge > h3 > span")
+    document.querySelector("#supercharge > h3 > span");
 
-  export const mountShadowHost: PlasmoMountShadowHost = ({ 
-    anchor, shadowHost 
+  export const mountShadowHost: PlasmoMountShadowHost = ({
+    anchor,
+    shadowHost,
   }) => {
-    anchor!.element!.insertBefore(shadowHost!, anchor!.element!.firstChild)
-  }
+    anchor!.element!.insertBefore(shadowHost!, anchor!.element!.firstChild);
+  };
 </script>
 
 <script>
-  let count = 0
-  let increment = () => count++
+  let count = 0;
+  let increment = () => count++;
 </script>
 
 <div>

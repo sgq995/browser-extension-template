@@ -18,7 +18,12 @@
     "@ianvs/prettier-plugin-sort-imports": "4.1.0",
     "@types/chrome": "0.0.245",
     "@types/node": "20.5.9",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.30",
     "prettier": "3.0.3",
+    "prettier-plugin-svelte": "3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4",
+    "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   },
   "manifest": {
