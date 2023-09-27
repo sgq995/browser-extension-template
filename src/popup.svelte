@@ -2,7 +2,7 @@
   import "./style.css";
 
   export let count = 0;
-  let action: string = null;
+  let action: string | null = null;
   function increment() {
     count += 1;
     action = "increment";

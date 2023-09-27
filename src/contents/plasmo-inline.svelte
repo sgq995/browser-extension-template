@@ -10,7 +10,7 @@
   };
 
   export const getInlineAnchor: PlasmoGetInlineAnchor = () =>
-    document.querySelector("#supercharge > h3 > span");
+    document.querySelector("#supercharge > h3 > span")!;
 
   export const mountShadowHost: PlasmoMountShadowHost = ({
     anchor,
